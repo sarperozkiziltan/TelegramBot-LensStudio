@@ -71,7 +71,7 @@ bot.on("message", (msg) => {
       { parse_mode: "HTML" }
     );
     user.resetMessage();
-    console.log("finaliazed");
+    console.log("new feature added");
     return;
   }
 });

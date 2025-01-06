@@ -28,7 +28,7 @@ bot.on("message", (msg) => {
     user.state = "feedback";
   } else if (user.state === "feedback") {
     console.log("Feedback received:", msg.text);
-    utils.addFeedback(msg.text);
+    utils.addFeedback(msg.text, user.chatId, user.firstName);
     bot.sendMessage(user.chatId, "Feedback received, thank you!");
     user.state = null;
     return;

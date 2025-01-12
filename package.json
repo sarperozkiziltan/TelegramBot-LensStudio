@@ -4,11 +4,16 @@
   "description": "",
   "main": "Controller.js",
   "scripts": {
-    "start": "node Controller.js"
+    "start": "node Controller.js",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "sarperOzkiziltan",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   }
 }

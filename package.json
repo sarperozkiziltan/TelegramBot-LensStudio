@@ -4,7 +4,7 @@
   "description": "",
   "main": "Controller.js",
   "scripts": {
-    "start": "node dist/bundle.js",
+    "start": "node Controller.js",
     "build": "webpack --config webpack.config.js"
   },
   "author": "sarperOzkiziltan",

@@ -1,4 +1,4 @@
-const HELP = `Hello user welcome to the Lens Studio TelegramBot use the Menu button to start using me or just type the commands by hand, here's the commands:"
+const HELP = `Hello dear user welcome to the Lens Studio TelegramBot use the Menu button to start using me or just type the commands by hand, here's the commands:"
 ---------------------------------------------------------------------------------------------
 /start --> starts the bot
 /restart --> restarts the bot if somethink goes wrong
